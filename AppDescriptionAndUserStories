@@ -26,4 +26,9 @@ User Stories:
         Slecting twitter requests a twitter account
       Email
         Selecting email creates a pop-up requesting Fred's email account and password
-    
+ 
+  Fred starts "PassTheAux" for the non-first time.
+    Freds home screen shows up listing the following actions/buttons:
+      Create Playlist
+      See Playlists
+      Edit profile/settings
