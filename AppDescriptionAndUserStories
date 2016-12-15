@@ -50,20 +50,31 @@ User Stories:
         in the bottom right of the screen. Fred has the option to tap any of the following items:
           Camera icon
             If the camera has not been used in the app before, a pop-up window requests access to camera and microphone
-            Else, the camera is displayed on the screen, there is a photograph icon on the bottom left corner of the screen, and a camera
+            Else, the camera is displayed on the screen, there is an '<' in the upper-right hand corner and a lightning bolt in the
+            upper-right hand corner, there is a photograph icon on the bottom left corner of the screen, and a camera
             icon with a "reverse" sign in it in the bottom right corner of the screen. In the middle bottom of the screen there is a 
             circle. Fred has the option to tap any of the following items:
               Circle
                 If Fred taps the circle he will take a picture and if he holds down the circle he will take a video
+              '<'
+                This takes Fred back to the screen where he can vote on songs
+              Lightning bolt
+                This turns the flash on, when the flash is on the lightning bolt is filled in and when flash is off the lighting bolt is
+                hollow and has a line through it
               Photograph icon
+                This takes Fred to all of the photos taken 
               Camera icon with a "reverse" sign
                 The camera flips from from being front-facing and vice-versa
+              Tapping somewhere on the screen
+                This focuses the camera on the area where Fred tapped
               Double-tapping the screen
-                This also flips the camera to front-facing and vice-versa
+                This is another way for Fred to flip the camera to front-facing and vice-versa
             
           Plus icon
           Down arrow
+          
           Up arrow
+            See above "down arrow"
           Album artwork
           
       Create Playlist
@@ -108,7 +119,7 @@ User Stories:
           Set password
           Spotify account
           Soundcloud account
-         If Fred taps his avitar a pop-up asks if he would like to update or remove his avitar
+         If Fred taps his avatar a pop-up asks if he would like to update or remove his avatar
           
           
 
