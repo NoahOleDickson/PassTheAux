@@ -1,65 +1,50 @@
 PassTheAux App Description and User Stories
 
 Overview
-PassTheAux is a mobile social media music application that enables users to:
+PassTheAux is a mobile social media music and photo application that enables users to:
 
 Create
 Share
 Modify
 Vote
 
-On user-defined geographically-bound playlists (each playlist has its own geographic bound).
+On user-defined geographically-bound playlists (each playlist has its own geographic bound) as well as share photos from these events.
 
 User Stories:
 
   Fred, on his mobile device, goes to the app store and enters "Pass the Aux" into the search box.  
     The "PassTheAux" app is listed.  
-     Fred selects install.  
-     After installation, the app icon shows up on Freds mobile device screen of icons.
+     Fred selects install.
+		 After installation, the app icon shows up on Freds mobile device screen of icons.
      
   Fred starts "PassTheAux" for the first time
     The app launches and the first screen requests Fred to select or create an account from the available options.  
     There is a drop down menu that lists:
       Sign in with Facebook
-        If the Facebook app is downloaded on Fred's mobile device, selecting "Sign in with Facebook" redirects to the Facebook app
-        requesting this app access to ________________
-        Else, selecting "Sign in with Facebook" redirects to Facebook on the mobile device's default web browser requesting this app
-        accecss to ________________
+        If the Facebook app is downloaded on Fred's mobile device, selecting "Sign in with Facebook" redirects to the Facebook app 								requesting this app access to ________________
+        Else, selecting "Sign in with Facebook" redirects to Facebook on the mobile device's default web browser requesting this app 							accecss to ________________
       Sign in with Twitter
-        If the Twitter app is downloaded on Fred's mobile device, selecting "Sign in with Twitter" redirects to the Twitter app
-        requesting this app access to ________________
-        Else, selecting "Sign in with Twitter" redirects to Twitter on the mobile device's default web browser requesting this app
-        accecss to ________________
+        If the Twitter app is downloaded on Fred's mobile device, selecting "Sign in with Twitter" redirects to the Twitter app requesting 				 this app access to ________________
+        Else, selecting "Sign in with Twitter" redirects to Twitter on the mobile device's default web browser requesting this app accecss 				 to ________________
       Sign in with Email
         Selecting email creates a pop-up requesting Fred's email account and password
-          There is a request for Fred to input a unique username (there is a notification on the right hand of the screen if the username
-          is already in use)
+          There is a request for Fred to input a unique username (there is a notification on the right hand of the screen if the username 					is already in use)
           There is a request for Fred to input a password
  
   Fred starts "Pass the Aux" for the non-first time.
     Fred's home screen shows up listing the following actions/buttons on the bottom of the screen (the home screen opens to "See
     Playlists" tab:
       See Playlists
-        The screen shows a list of playlist names (with admin names underneath) with a search bar and sort feature at the top of the screen
-          The sort feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist,
-          or alphabatized (the default is proximity)
-          Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped
-          in, and admins matching his search
-        When Fred selects a playlist, the screen shows the playlist title at the top of the screen, there is a camera icon in the top left
-        corner and a '+' icon in the top right corner. A song is displayed in the center of the screen with the title and artist listed
-        under the album cover. There is a 'v' (down arrow or thumbs down) in the bottom left of the screen and a '^'(up arrow or thumbs up)
-        in the bottom right of the screen. Fred has the option to tap any of the following items:
+        The screen shows a list of playlist names (with admin names underneath) with a search bar and sort feature at the top of the 							screen. If Fred has created any playlists that are currently "live" they will appear in a special sublist at the top of the 							screen, just under the search bar and sort feature with the header "My Playlists"
+          The sort feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist, 					or alphabatize the list of playlists (the default is proximity)
+          Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped 						in, and admins matching his search
+        When Fred selects a playlist that he did not create, the screen shows the playlist title at the top of the screen, there is a 						camera icon in the top left corner and a '+' icon in the top right corner. A song is displayed in the center of the screen with 					the title and artist listed under the album cover. There is a 'v' (down arrow or thumbs down) in the bottom left of the screen anD 				 a '^'(up arrow or thumbs up) in the bottom right of the screen. Fred has the option to tap any of the following items:
           Camera icon
             If the camera has not been used in the app before, a pop-up window requests access to camera and microphone
-            Else, the camera is displayed on the screen, there is a '<' in the upper-right hand corner and a lightning bolt in the
-            upper-right hand corner, there is a photograph icon on the bottom left corner of the screen, and a camera
-            icon with a "reverse" sign in it in the bottom right corner of the screen. In the middle bottom of the screen there is a 
-            circle. Fred has the option to tap any of the following items:
+            Else, the camera is displayed on the screen, there is a '<' in the upper-right hand corner and a lightning bolt in the upper-							right hand corner, there is a photograph icon on the bottom left corner of the screen, and a camera icon with a "reverse" sign 						 in it in the bottom right corner of the screen. In the middle bottom of the screen there is a circle. Fred has the option to 						tap any of the following items:
               Circle
                 If Fred taps the circle he will take a picture and if he holds down the circle he will take a video
-                The captured image/video is displayed on the screen, there is a 'x' in the top left corner, a number of features in the
-                top right corner for photo/video editing, and an "Add caption" bar at the bottom of the screen. There is a '>' button in
-                the bottom right corner. Fred has the following button options:
+                The captured image/video is displayed on the screen, there is a 'x' in the top left corner, a number of features in the 									top right corner for photo/video editing, and an "Add caption" bar at the bottom of the screen. There is a '>' button in 									the bottom right corner. Fred has the following button options:
                   'x'Button
                     This deletes the photo/video and takes Fred back to the previous screen (open camera)
                   Add caption
@@ -67,60 +52,56 @@ User Stories:
                   Photo editing features
                     These allow Fred to crop, add stickers (emojis), add text, and draw on the photo/video
                   Double-tap
-                    Fred can double-tap anywhere and a pop-up window asks him to input a username and he can tag his "connections" in
-                    the photo. If he accidentally tags the wrong person or wants to remove the tag for any reason he holds down the name
-                    he chose and an 'x' will appear which will allow him to delete the tag
+                    Fred can double-tap anywhere and a pop-up window asks him to input a username and he can tag his "connections" in the 										photo. If he accidentally tags the wrong person or wants to remove the tag for any reason he holds down the name he 											chose and an 'x' will appear which will allow him to delete the tag
                   '>' Button
                     This will make the photo/video available to every other user who is tapped into the same playlist
               '<'Button
                 This takes Fred back to the screen where he can vote on songs
               Lightning bolt
-                This turns the flash on, when the flash is on the lightning bolt is filled in and when flash is off the lighting bolt is
-                hollow and has a line through it
+                This turns the flash on, when the flash is on the lightning bolt is filled in and when flash is off the lighting bolt is 									hollow and has a line through it
               Photograph icon
-                This takes Fred to all of the photos taken by people tapped into the same playlist. They are shown in tile form and at the
-                top of the screen Fred has view, filter, sort, and search options, along with a '<' button to return to the camera.
+                This takes Fred to all of the photos taken by people tapped into the same playlist. They are shown in tile form and at the 								 top of the screen Fred has view, filter, sort, and search options, along with a '<' button to return to the camera.
                 Fred has the following options:
-                  '<'Button
+                  '<' Button
                     This takes Fred back to the previous screen where his camera is open
                   View
-                    Fred has the option to view the photos/video in tile form (default) or in a continuous scrolling list of full-sized
-                    photos and videos
+                    Fred has the option to view the photos/video in tile form (default) or in a continuous scrolling list of full-sized 											photos and videos
                   Filter
-                    This allows Fred to filter the results to his "connections," a certain time-frame (i.e. last minute, five-minutes,
-                    etc.), which song was being played, show photos only, and/or show videos only
+                    This allows Fred to filter the results to his "connections," a certain time-frame (i.e. last minute, five-minutes, 												etc.), which song was being played, show photos only, and/or show videos only
                   Sort
-                    Fred can sort the results to show photos that haved tagged "connections" first, show the photos in chronological 
-                    order, or show the most recently posted photos first (inverse of chronological order)
+                    Fred can sort the results to show photos that haved tagged "connections" first, show the photos in chronological 													order, or show the most recently posted photos first (inverse of chronological order)
                   Search
-                    Fred can input a string and the search results will show photos/videos with tagged users, songs, and captions that
-                    match/contain his search
-             
+                    Fred can input a string and the search results will show photos/videos with tagged users, songs, and captions that 												match/contain his search
               Camera icon with a "reverse" sign
                 The camera flips from from being front-facing and vice-versa
               Tapping somewhere on the screen
                 This focuses the camera on the area where Fred tapped
               Double-tapping the screen
                 This is another way for Fred to flip the camera to front-facing and vice-versa
-            
           Plus icon
+            Depending on whether the playlist was set-up through Spotify or Soundcloud by the admin, this screen will have two 												possibilities.
+            If the admin set up the playlist through Spotify, then the screen shows Playlists, Songs, Albums, and Artists imported from 							Fred's Spotify. 
+            If the admin set up the playlist through Soundcloud, then the screen shows Tracks, Liked Tracks, Albums, and Playlists 										imported from Fred's Soundcloud.
           Down arrow
-          
+          	An animation will illuminate the down arrow red and the results of the vote will be displayed for one second before moving on							to the next song suggestion
           Up arrow
-            See above "down arrow"
+            An animation will illuminate the up arrow green and the results of the vote will be displayed for one second before moving on 						to the next song suggestion
           Album artwork
-          
+            The album flips or becomes fuzzy and text appears saying "This song was suggested by USERNAME". If the admin had chosen to 								allow for anonymous song suggestions, an anyonymously-suggested song has the text, "This song was suggested by Anonymous"
+          Swipe right
+            This skips the current song suggestion and moves on to the next suggestion
+          Swipe left
+            This shows Fred the screen b
+        If there are no more song suggestions, a message reads "There are currently no more songs suggested. Make a suggestion here" with 				an arrow pointing to the "+" button
       Create Playlist
         There is a drop down menu that lists:
           Create playlist using Spotify
             If Fred has not logged in to Spotify before then there is a request to access his Spotify account
-              If the Spotify app is downloaded on Fred's mobile device he is redirected to the Spotify app, requesting this app access 
-              to ________________
+              If the Spotify app is downloaded on Fred's mobile device he is redirected to the Spotify app, requesting this app access to 							________________
               Else, redirects to Spotify on the mobile device's default web browser requesting this app accecss to ________________
           Create playlist using Soundcloud
             If Fred has not logged in to Soundcloud before then there is a request to access his Soundcloud account
-              If the Soundcloud app is downloaded on Fred's mobile device he is redirected to the Soundcloud app, requesting this app 
-              access to ________________
+              If the Soundcloud app is downloaded on Fred's mobile device he is redirected to the Soundcloud app, requesting this app 									access to ________________
               Else, redirects to Soundcloud on the mobile device's default web browser requesting this app accecss to ________________
          After selecting a streaming service, there is a drop down menu that lists:
             Name playlist
@@ -129,25 +110,20 @@ User Stories:
               Fred selects the playlist's radius from a dropdown menu of radius choices
             Make playlist private
               Fred selects whether or not he would like to make the playlist private (default is public)
-                If Fred chooses to make the playlist private, there is a pop-up requesting him to choose which other users ("connections")
-                have the ability to suggest songs
+                If Fred chooses to make the playlist private, there is a pop-up requesting him to choose which other users ("connections") 								 have the ability to suggest songs
             Allow anonymous suggestions
-              Fred selects whether or not he would like to allow other users to make suggestions without their name appearing on the 
-              suggestion (default is no anonymous suggestions)
+              Fred selects whether or not he would like to allow other users to make suggestions without their name appearing on the 										suggestion (default is no anonymous suggestions)
             Block explicit songs
-              Fred selects whether or not he would like to disallow users to suggest explicit songs (default is not blocking explicit
-              song suggestions)
+              Fred selects whether or not he would like to disallow users to suggest explicit songs (default is not blocking explicit song 							 suggestions)
             Allow admin vetoes
               Fred selects whether or not he would like to be able to veto any suggested song (default is not allowing for admin vetoes)
       See Connections
       See History
-        The screen shows a list of playlists Fred has visited in the past with a search bar and sort feature at the top of the screen
-          The sort feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist,
-          or alphabatized (the default is proximity)
-          Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped
-          in, and admins matching his search
+        The screen shows a list of playlists Fred has visited in the past with a search bar and filter feature at the top of the screen
+          The filter feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist, or alphabatized (the default is proximity)
+          Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped 						in, and admins matching his search
       See profile
-        There is your user picture and a drop down menu that lists:
+        There is Fred's avatar (user picture) and a drop down menu that lists:
           Username
           Set password
           Spotify account
@@ -155,13 +131,15 @@ User Stories:
           My photos
           Photos of me
           Photo settings
-         If Fred taps his avatar, a pop-up asks if he would like to update, view, or remove his avatar. If Fred wants to update his avatar,
-         he is asked whether he would like to take a photo, choose a photo from the app, or choose from Camera Roll.
-          Take a photo
+          Notification settings
+         If Fred taps his avatar, a pop-up asks if he would like to update, view, or remove his avatar. If Fred wants to update his 							 avatar, he is asked whether he would like to take a photo, choose a photo from the app, or choose from Camera Roll.
+         	Take a photo
             This takes Fred to the same camera screen he would find in the "See Playlists" tab
           Choose a photo from the app
-            A drop down list shows two options, "My photos" (photos taken by Fred in the app) or "Photos of me" (photos that Fred has
-            been tagged in from the app)
+            A drop down list shows two options, "My photos" (photos taken by Fred in the app) or "Photos of me" (photos that Fred has been 						 tagged in from the app)
+          Choose from Camera Roll
+            If Fred has never used his Camera Roll in the app before, then he is asked to provide access
+            Else, Fred is redirected to his Camera Roll to select a photo
           
           
 
