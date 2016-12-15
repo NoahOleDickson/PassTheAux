@@ -34,13 +34,11 @@ User Stories:
   Fred starts "Pass the Aux" for the non-first time.
     Fred's home screen shows up listing the following actions/buttons on the bottom of the screen (the home screen opens to "See
     Playlists" tab:
-      See Playlists
-        The screen shows a list of playlist names (with admin names underneath) with a search bar and sort feature at the top of the 							screen. If Fred has created any playlists that are currently "live" they will appear in a special sublist at the top of the 							screen, just under the search bar and sort feature with the header "My Playlists"
+      See Live Playlists
+        The screen shows a list of playlist names (with admin names underneath) with a lock icon on the right hand side of the playlist 					name if the playlist was set private. There is search bar and sort feature at the top of the screen
           The sort feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist, 					or alphabatize the list of playlists (the default is proximity)
           Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped 						in, and admins matching his search
-				When Fred selects a playlist that he did create...
-				
-        When Fred selects a playlist that he did not create, the screen shows the playlist title at the top of the screen, there is a 						camera icon in the top left corner and a '+' icon in the top right corner. A song is displayed in the center of the screen with 					the title and artist listed under the album cover. There is a 'v' (down arrow or thumbs down) in the bottom left of the screen anD 				 a '^'(up arrow or thumbs up) in the bottom right of the screen. Fred has the option to tap any of the following items:
+				When Fred selects a playlist, the screen shows the playlist title at the top of the screen, there is a camera icon in the top left 				 corner and a '+' icon in the top right corner. A song is displayed in the center of the screen with the title and artist listed 					under the album cover. There is a 'v' (down arrow or thumbs down) in the bottom left of the screen and a '^'(up arrow or thumbs 					up) in the bottom right of the screen. Fred has the option to tap any of the following items:
           Camera icon
             If the camera has not been used in the app before, a pop-up window requests access to camera and microphone
             Else, the camera is displayed on the screen, there is a '<' in the upper-right hand corner and a lightning bolt in the upper-							right hand corner, there is a photograph icon on the bottom left corner of the screen, and a camera icon with a "reverse" sign 						 in it in the bottom right corner of the screen. In the middle bottom of the screen there is a circle. Fred has the option to 						tap any of the following items:
@@ -82,8 +80,8 @@ User Stories:
                 This is another way for Fred to flip the camera to front-facing and vice-versa
           Plus icon
             Depending on whether the playlist was set-up through Spotify or Soundcloud by the admin, this screen will have two 												possibilities.
-            If the admin set up the playlist through Spotify, then the screen shows Playlists, Songs, Albums, and Artists imported from 							Fred's Spotify. 
-            If the admin set up the playlist through Soundcloud, then the screen shows Tracks, Liked Tracks, Albums, and Playlists 										imported from Fred's Soundcloud.
+            If the admin set up the playlist through Spotify, then the screen shows Playlists, Songs, Albums, and Artists imported from 							Fred's Spotify. Fred only has the option of suggesting a song, so if he selects "Playlists", "Albums", or "Artists", he is 								taken to a list that is a subset of "Songs" of which he can choose songs to suggest 
+            If the admin set up the playlist through Soundcloud, then the screen shows Tracks, Liked Tracks, Albums, and Playlists 										imported from Fred's Soundcloud.Fred only has the option of suggesting a song, so if he selects "Playlists", "Albums", or 								"Artists", he is taken to a list that is a subset of "Songs" of which he can choose songs to suggest
           Down arrow
           	An animation will illuminate the down arrow red and the results of the vote will be displayed for one second before moving on							to the next song suggestion
           Up arrow
@@ -95,50 +93,64 @@ User Stories:
           Swipe left
             This shows Fred the screen b
         If there are no more song suggestions, a message reads "There are currently no more songs suggested. Make a suggestion here" with 				an arrow pointing to the "+" button
-      Create Playlist
-        There is a drop down menu that lists:
-          Create playlist using Spotify
-            If Fred has not logged in to Spotify before then there is a request to access his Spotify account
-              If the Spotify app is downloaded on Fred's mobile device he is redirected to the Spotify app, requesting this app access to 							________________
-              Else, redirects to Spotify on the mobile device's default web browser requesting this app accecss to ________________
-          Create playlist using Soundcloud
-            If Fred has not logged in to Soundcloud before then there is a request to access his Soundcloud account
-              If the Soundcloud app is downloaded on Fred's mobile device he is redirected to the Soundcloud app, requesting this app 									access to ________________
-              Else, redirects to Soundcloud on the mobile device's default web browser requesting this app accecss to ________________
-         After selecting a streaming service, there is a drop down menu that lists:
-            Name playlist
-              Fred inputs a string that will be the playlist's title
-            Set playlist radius
-              Fred selects the playlist's radius from a dropdown menu of radius choices
-            Make playlist private
-              Fred selects whether or not he would like to make the playlist private (default is public)
-                If Fred chooses to make the playlist private, there is a pop-up requesting him to choose which other users ("connections") 								 have the ability to suggest songs
-            Allow anonymous suggestions
-              Fred selects whether or not he would like to allow other users to make suggestions without their name appearing on the 										suggestion (default is no anonymous suggestions)
-            Block explicit songs
-              Fred selects whether or not he would like to disallow users to suggest explicit songs (default is not blocking explicit song 							 suggestions)
-            Allow admin vetoes
-              Fred selects whether or not he would like to be able to veto any suggested song (default is not allowing for admin vetoes)
+      See My Playlists
+        There is a list of live playlists that Fred has created. There is a '+' in the top right corner.
+					If Fred taps the '+' button, there is a drop down menu that lists:
+          	Create playlist using Spotify
+            	If Fred has not logged in to Spotify before then there is a request to access his Spotify account
+            	  If the Spotify app is downloaded on Fred's mobile device he is redirected to the Spotify app, requesting this app access 									to ________________
+              	Else, redirects to Spotify on the mobile device's default web browser requesting this app accecss to ________________
+          	Create playlist using Soundcloud
+            	If Fred has not logged in to Soundcloud before then there is a request to access his Soundcloud account
+              	If the Soundcloud app is downloaded on Fred's mobile device he is redirected to the Soundcloud app, requesting this app 									access to ________________
+              	Else, redirects to Soundcloud on the mobile device's default web browser requesting this app accecss to ________________
+         		After selecting a streaming service, there is a drop down menu that lists:
+          	  Name playlist
+            	  Fred inputs a string that will be the playlist's title
+							Set playlist radius
+         	    	Fred selects the playlist's radius from a dropdown menu of radius choices
+          	  Make playlist private
+            	  Fred selects whether or not he would like to make the playlist private (default is public)
+              	  If Fred chooses to make the playlist private, there is a pop-up requesting him to choose which other users 																("connections") have the ability to suggest songs
+							Allow anonymous suggestions
+            	  Fred selects whether or not he would like to allow other users to make suggestions without their name appearing on the 										suggestion (default is no anonymous suggestions)
+							Block explicit songs
+            	  Fred selects whether or not he would like to disallow users to suggest explicit songs (default is not blocking explicit 									song suggestions)
+							Allow admin vetoes
+            	  Fred selects whether or not he would like to be able to veto any suggested song (default is not allowing for admin vetoes)
+					If Fred taps on one of the live playlists...
+					
       See Connections...
 			
       See History
-        There are two tabs Fred can choose "Visited retired playlists" or "My retired playlists" ("Visited retired playlists" is default")
+        There are two tabs Fred can choose, "Visited retired playlists" or "My retired playlists" ("Visited retired playlists" is 								default) at the top of the screen
 					The screen shows a list of playlists Fred has created or visited in the past with a search bar at the top of the screen
-						Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped 						 in, and admins matching his search
+						Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users who 							tapped in, and playlists containing songs matching his search
 					When Fred taps on a playlist a drop down menu lists:
-						Playlist
-						Photos
-						Who tapped in
+						Playlist...
+						
+						Photos...
+						
+						Who tapped in...
+						
       See profile
         There is Fred's avatar (user picture) and a drop down menu that lists:
-          Username
-          Set password
-          Spotify account
-          Soundcloud account
-          My photos
-          Photos of me
-          Photo settings
-          Notification settings
+          Username...
+					
+          Set password...
+					
+          Spotify account...
+					
+          Soundcloud account...
+					
+          My photos...
+					
+          Photos of me...
+					
+          Photo settings...
+					
+          Notification settings...
+					
          If Fred taps his avatar, a pop-up asks if he would like to update, view, or remove his avatar. If Fred wants to update his 							 avatar, he is asked whether he would like to take a photo, choose a photo from the app, or choose from Camera Roll.
          	Take a photo
             This takes Fred to the same camera screen he would find in the "See Playlists" tab
@@ -149,7 +161,8 @@ User Stories:
             Else, Fred is redirected to his Camera Roll to select a photo
 						
 						
-						
+
+ADDITIONAL RANDOM IDEAS
 People who are online have their username show up as green          
           
 
