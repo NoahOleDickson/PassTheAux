@@ -38,6 +38,8 @@ User Stories:
         The screen shows a list of playlist names (with admin names underneath) with a search bar and sort feature at the top of the 							screen. If Fred has created any playlists that are currently "live" they will appear in a special sublist at the top of the 							screen, just under the search bar and sort feature with the header "My Playlists"
           The sort feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist, 					or alphabatize the list of playlists (the default is proximity)
           Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped 						in, and admins matching his search
+				When Fred selects a playlist that he did create...
+				
         When Fred selects a playlist that he did not create, the screen shows the playlist title at the top of the screen, there is a 						camera icon in the top left corner and a '+' icon in the top right corner. A song is displayed in the center of the screen with 					the title and artist listed under the album cover. There is a 'v' (down arrow or thumbs down) in the bottom left of the screen anD 				 a '^'(up arrow or thumbs up) in the bottom right of the screen. Fred has the option to tap any of the following items:
           Camera icon
             If the camera has not been used in the app before, a pop-up window requests access to camera and microphone
@@ -117,11 +119,16 @@ User Stories:
               Fred selects whether or not he would like to disallow users to suggest explicit songs (default is not blocking explicit song 							 suggestions)
             Allow admin vetoes
               Fred selects whether or not he would like to be able to veto any suggested song (default is not allowing for admin vetoes)
-      See Connections
+      See Connections...
+			
       See History
-        The screen shows a list of playlists Fred has visited in the past with a search bar and filter feature at the top of the screen
-          The filter feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist, or alphabatized (the default is proximity)
-          Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped 						in, and admins matching his search
+        There are two tabs Fred can choose "Visited retired playlists" or "My retired playlists" ("Visited retired playlists" is default")
+					The screen shows a list of playlists Fred has created or visited in the past with a search bar at the top of the screen
+						Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped 						 in, and admins matching his search
+					When Fred taps on a playlist a drop down menu lists:
+						Playlist
+						Photos
+						Who tapped in
       See profile
         There is Fred's avatar (user picture) and a drop down menu that lists:
           Username
@@ -140,6 +147,9 @@ User Stories:
           Choose from Camera Roll
             If Fred has never used his Camera Roll in the app before, then he is asked to provide access
             Else, Fred is redirected to his Camera Roll to select a photo
-          
+						
+						
+						
+People who are online have their username show up as green          
           
 
