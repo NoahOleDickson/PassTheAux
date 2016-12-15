@@ -1,0 +1,29 @@
+PassTheAux App Description and User Stories
+
+Overview
+PassTheAux is a mobile social media music application that enables users to:
+
+Create
+Share
+Modify
+Vote
+
+On user defined geographically bound playlists (each playlist has its own geographic bound).
+
+User Stories:
+
+  Fred, on his mobile device, goes to the app store and enters "PassTheAux" into the search box.  
+    The "PassTheAux" app is listed.  
+     Fred selects install.  
+     After installation, the app icon shows up on Freds mobile device screen of icons.
+     
+  Fred starts "PassTheAux" for the first time
+    The app launches and the first screen requests Fred to select or create an account from the available options.  
+    There is a drop down menu that lists:
+      Facebook
+        Redirects to Facebook app requesting this app access
+      Twitter
+        Slecting twitter requests a twitter account
+      Email
+        Selecting email creates a pop-up requesting Fred's email account and password
+    
