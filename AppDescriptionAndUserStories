@@ -163,6 +163,10 @@ User Stories:
 						
 
 ADDITIONAL RANDOM IDEAS
-People who are online have their username show up as green          
+People who are online have their username show up as green
+On a user's profile page it has tabs "favorite songs" and "least favorite songs" based on their upvote and downvote history
+There should be a photo album on the user's profile page
+A user should be able to see the song that is currently being played
+There should be a way to save/add songs that the user enjoys
           
 
