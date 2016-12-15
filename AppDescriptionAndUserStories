@@ -8,11 +8,11 @@ Share
 Modify
 Vote
 
-On user defined geographically bound playlists (each playlist has its own geographic bound).
+On user-defined geographically-bound playlists (each playlist has its own geographic bound).
 
 User Stories:
 
-  Fred, on his mobile device, goes to the app store and enters "PassTheAux" into the search box.  
+  Fred, on his mobile device, goes to the app store and enters "Pass the Aux" into the search box.  
     The "PassTheAux" app is listed.  
      Fred selects install.  
      After installation, the app icon shows up on Freds mobile device screen of icons.
@@ -21,14 +21,94 @@ User Stories:
     The app launches and the first screen requests Fred to select or create an account from the available options.  
     There is a drop down menu that lists:
       Facebook
-        Redirects to Facebook app requesting this app access
+        If the Facebook app is downloaded on Fred's mobile device, selecting "Sign in with Facebook" redirects to the Facebook app
+        requesting this app access to ________________
+        Else, selecting "Sign in with Facebook" redirects to Facebook on the mobile device's default web browser requesting this app
+        accecss to ________________
       Twitter
-        Slecting twitter requests a twitter account
+        If the Twitter app is downloaded on Fred's mobile device, selecting "Sign in with Twitter" redirects to the Twitter app
+        requesting this app access to ________________
+        Else, selecting "Sign in with Twitter" redirects to Twitter on the mobile device's default web browser requesting this app
+        accecss to ________________
       Email
         Selecting email creates a pop-up requesting Fred's email account and password
+          There is a request for Fred to input a unique username (there is a notification on the right hand of the screen if the username
+          is already in use)
+          There is a request for Fred to input a password
  
-  Fred starts "PassTheAux" for the non-first time.
+  Fred starts "Pass the Aux" for the non-first time.
     Freds home screen shows up listing the following actions/buttons:
-      Create Playlist
       See Playlists
-      Edit profile/settings
+        The screen shows a list of playlist names (with admin names underneath) with a search bar and sort feature at the top of the screen
+          The sort feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist,
+          or alphabatized (the default is proximity)
+          Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped
+          in, and admins matching his search
+        When Fred selects a playlist, the screen shows the playlist title at the top of the screen, there is a camera icon in the top left
+        corner and a '+' icon in the top right corner. A song is displayed in the center of the screen with the title and artist listed
+        under the album cover. There is a 'v' (down arrow or thumbs down) in the bottom left of the screen and a '^'(up arrow or thumbs up)
+        in the bottom right of the screen. Fred has the option to tap any of the following items:
+          Camera icon
+            If the camera has not been used in the app before, a pop-up window requests access to camera and microphone
+            Else, the camera is displayed on the screen, there is a photograph icon on the bottom left corner of the screen, and a camera
+            icon with a "reverse" sign in it in the bottom right corner of the screen. In the middle bottom of the screen there is a 
+            circle. Fred has the option to tap any of the following items:
+              Circle
+                If Fred taps the circle he will take a picture and if he holds down the circle he will take a video
+              Photograph icon
+              Camera icon with a "reverse" sign
+                The camera flips from from being front-facing and vice-versa
+              Double-tapping the screen
+                This also flips the camera to front-facing and vice-versa
+            
+          Plus icon
+          Down arrow
+          Up arrow
+          Album artwork
+          
+      Create Playlist
+        There is a drop down menu that lists:
+          Create playlist using Spotify
+            If Fred has not logged in to Spotify before then there is a request to access his Spotify account
+              If the Spotify app is downloaded on Fred's mobile device he is redirected to the Spotify app, requesting this app access 
+              to ________________
+              Else, redirects to Spotify on the mobile device's default web browser requesting this app accecss to ________________
+          Create playlist using Soundcloud
+            If Fred has not logged in to Soundcloud before then there is a request to access his Soundcloud account
+              If the Soundcloud app is downloaded on Fred's mobile device he is redirected to the Soundcloud app, requesting this app 
+              access to ________________
+              Else, redirects to Soundcloud on the mobile device's default web browser requesting this app accecss to ________________
+         After selecting a streaming service, there is a drop down menu that lists:
+            Name playlist
+              Fred inputs a string that will be the playlist's title
+            Set playlist radius
+              Fred selects the playlist's radius from a dropdown menu of radius choices
+            Make playlist private
+              Fred selects whether or not he would like to make the playlist private (default is public)
+                If Fred chooses to make the playlist private, there is a pop-up requesting him to choose which other users ("connections")
+                have the ability to suggest songs
+            Allow anonymous suggestions
+              Fred selects whether or not he would like to allow other users to make suggestions without their name appearing on the 
+              suggestion (default is no anonymous suggestions)
+            Block explicit songs
+              Fred selects whether or not he would like to disallow users to suggest explicit songs (default is not blocking explicit
+              song suggestions)
+            Allow admin vetoes
+              Fred selects whether or not he would like to be able to veto any suggested song (default is not allowing for admin vetoes)
+      See Connections
+      See History
+        The screen shows a list of playlists Fred has visited in the past with a search bar and sort feature at the top of the screen
+          The sort feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist,
+          or alphabatized (the default is proximity)
+          Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users tapped
+          in, and admins matching his search
+      See profile
+        There is your user picture and a drop down menu that lists:
+          Username
+          Set password
+          Spotify account
+          Soundcloud account
+         If Fred taps his avitar a pop-up asks if he would like to update or remove his avitar
+          
+          
+
