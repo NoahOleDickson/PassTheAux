@@ -20,24 +20,25 @@ User Stories:
   Fred starts "PassTheAux" for the first time
     The app launches and the first screen requests Fred to select or create an account from the available options.  
     There is a drop down menu that lists:
-      Facebook
+      Sign in with Facebook
         If the Facebook app is downloaded on Fred's mobile device, selecting "Sign in with Facebook" redirects to the Facebook app
         requesting this app access to ________________
         Else, selecting "Sign in with Facebook" redirects to Facebook on the mobile device's default web browser requesting this app
         accecss to ________________
-      Twitter
+      Sign in with Twitter
         If the Twitter app is downloaded on Fred's mobile device, selecting "Sign in with Twitter" redirects to the Twitter app
         requesting this app access to ________________
         Else, selecting "Sign in with Twitter" redirects to Twitter on the mobile device's default web browser requesting this app
         accecss to ________________
-      Email
+      Sign in with Email
         Selecting email creates a pop-up requesting Fred's email account and password
           There is a request for Fred to input a unique username (there is a notification on the right hand of the screen if the username
           is already in use)
           There is a request for Fred to input a password
  
   Fred starts "Pass the Aux" for the non-first time.
-    Freds home screen shows up listing the following actions/buttons:
+    Fred's home screen shows up listing the following actions/buttons on the bottom of the screen (the home screen opens to "See
+    Playlists" tab:
       See Playlists
         The screen shows a list of playlist names (with admin names underneath) with a search bar and sort feature at the top of the screen
           The sort feature has tabs allowing Fred to sort the list of playlists based on proximity, amount of users tapped into playlist,
@@ -50,19 +51,51 @@ User Stories:
         in the bottom right of the screen. Fred has the option to tap any of the following items:
           Camera icon
             If the camera has not been used in the app before, a pop-up window requests access to camera and microphone
-            Else, the camera is displayed on the screen, there is an '<' in the upper-right hand corner and a lightning bolt in the
+            Else, the camera is displayed on the screen, there is a '<' in the upper-right hand corner and a lightning bolt in the
             upper-right hand corner, there is a photograph icon on the bottom left corner of the screen, and a camera
             icon with a "reverse" sign in it in the bottom right corner of the screen. In the middle bottom of the screen there is a 
             circle. Fred has the option to tap any of the following items:
               Circle
                 If Fred taps the circle he will take a picture and if he holds down the circle he will take a video
-              '<'
+                The captured image/video is displayed on the screen, there is a 'x' in the top left corner, a number of features in the
+                top right corner for photo/video editing, and an "Add caption" bar at the bottom of the screen. There is a '>' button in
+                the bottom right corner. Fred has the following button options:
+                  'x'Button
+                    This deletes the photo/video and takes Fred back to the previous screen (open camera)
+                  Add caption
+                    Fred can input a string that will be tagged to the photo
+                  Photo editing features
+                    These allow Fred to crop, add stickers (emojis), add text, and draw on the photo/video
+                  Double-tap
+                    Fred can double-tap anywhere and a pop-up window asks him to input a username and he can tag his "connections" in
+                    the photo. If he accidentally tags the wrong person or wants to remove the tag for any reason he holds down the name
+                    he chose and an 'x' will appear which will allow him to delete the tag
+                  '>' Button
+                    This will make the photo/video available to every other user who is tapped into the same playlist
+              '<'Button
                 This takes Fred back to the screen where he can vote on songs
               Lightning bolt
                 This turns the flash on, when the flash is on the lightning bolt is filled in and when flash is off the lighting bolt is
                 hollow and has a line through it
               Photograph icon
-                This takes Fred to all of the photos taken 
+                This takes Fred to all of the photos taken by people tapped into the same playlist. They are shown in tile form and at the
+                top of the screen Fred has view, filter, sort, and search options, along with a '<' button to return to the camera.
+                Fred has the following options:
+                  '<'Button
+                    This takes Fred back to the previous screen where his camera is open
+                  View
+                    Fred has the option to view the photos/video in tile form (default) or in a continuous scrolling list of full-sized
+                    photos and videos
+                  Filter
+                    This allows Fred to filter the results to his "connections," a certain time-frame (i.e. last minute, five-minutes,
+                    etc.), which song was being played, show photos only, and/or show videos only
+                  Sort
+                    Fred can sort the results to show photos that haved tagged "connections" first, show the photos in chronological 
+                    order, or show the most recently posted photos first (inverse of chronological order)
+                  Search
+                    Fred can input a string and the search results will show photos/videos with tagged users, songs, and captions that
+                    match/contain his search
+             
               Camera icon with a "reverse" sign
                 The camera flips from from being front-facing and vice-versa
               Tapping somewhere on the screen
@@ -119,7 +152,16 @@ User Stories:
           Set password
           Spotify account
           Soundcloud account
-         If Fred taps his avatar a pop-up asks if he would like to update or remove his avatar
+          My photos
+          Photos of me
+          Photo settings
+         If Fred taps his avatar, a pop-up asks if he would like to update, view, or remove his avatar. If Fred wants to update his avatar,
+         he is asked whether he would like to take a photo, choose a photo from the app, or choose from Camera Roll.
+          Take a photo
+            This takes Fred to the same camera screen he would find in the "See Playlists" tab
+          Choose a photo from the app
+            A drop down list shows two options, "My photos" (photos taken by Fred in the app) or "Photos of me" (photos that Fred has
+            been tagged in from the app)
           
           
 
