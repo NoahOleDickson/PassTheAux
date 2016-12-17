@@ -4,28 +4,37 @@ Description:  This file contains a list of prioritized tasks, with estimated tim
 
 Last updated:  12/17/16
 
-Specification Tasks
+Specification tasks:
 
-1. Powerpoint walkthrough of installing the app.
-2. User story of installing the app.
-3. Powerpoint walkthrough of fist time launch
-4. User story and UI specifications of first time launch
-5. Powerpoint walkthrough of non-first time launch - the home UX
-6. User story and UI specifications of non-first time launch
-7. Powerpoint walkthrough of creating a playlist
-8. User story and UI specifications of creating a playlist
-9. Powerpoint walkthrough of voting on playlist
-10. User story and UI specifications of voting on playlist
-11. Powerpoint walkthrough of posting photo's to playlist
-12. User story and UI specifications of posting photo's to playlist
-13. Powerpoint walkthrough of viewing and editing profile
-14. User story and UI specifications of viewing and editing profile
-15. Powerpoint walkthrough of viewing connections
-16. User story and UI specifications of viewing connections
-17. Powerpoint walkthrough of viewing others profiles
-18. User story and UI specifications of viewing others profiles
+1. (2 hrs) Powerpoint walkthrough of installing the app.
+2. (2 hrs) User story of installing the app.
+3. (2 hrs) Powerpoint walkthrough of fist time launch
+4. (2 hrs) User story and UI specifications of first time launch
+5. (2 hrs) Powerpoint walkthrough of non-first time launch - the home UX
+6. (2 hrs) User story and UI specifications of non-first time launch
+7. (2 hrs) Powerpoint walkthrough of creating a playlist
+8. (2 hrs) User story and UI specifications of creating a playlist
+9. (2 hrs) Powerpoint walkthrough of voting on playlist
+10. (2 hrs) User story and UI specifications of voting on playlist
+11. (2 hrs) Powerpoint walkthrough of posting photo's to playlist
+12. (2 hrs) User story and UI specifications of posting photo's to playlist
+13. (2 hrs) Powerpoint walkthrough of viewing and editing profile
+14. (2 hrs) User story and UI specifications of viewing and editing profile
+15. (2 hrs) Powerpoint walkthrough of viewing connections
+16. (2 hrs) User story and UI specifications of viewing connections
+17. (2 hrs) Powerpoint walkthrough of viewing others profiles
+18. (2 hrs) User story and UI specifications of viewing others profiles
+19. (2 hrs) Powerpoint walkthrough of viewing history of playlists visited and created
+20. (2 hrs) User story and UI specifications of viewing history of playlists visited and created
+
+template
+nn. Powerpoint walkthrough of 
+nn. User story and UI specifications of 
 
 Development tasks:
 
-19. Design Pass The Aux data needs & resulting database schema
-20. Design API
+21. (2 hrs - Dad to start 12/17) Research and recommend SQL store host and API host 
+22. (2 hrs - Dad to start 12/17) Design Pass The Aux data needs & resulting database schema
+23. (4 hrs) Design API - REST with JSON data objects
+24. (1/2 hrs) Create database
+25. (4+ hrs) Create API
