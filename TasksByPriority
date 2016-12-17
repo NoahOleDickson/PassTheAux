@@ -1,0 +1,31 @@
+Pass The Aux Tasks By Priority
+
+Description:  This file contains a list of prioritized tasks, with estimated time per task.  This list will get updated regularly, reprioritized, and the last update noted just below this description.
+
+Last updated:  12/17/16
+
+Specification Tasks
+
+1. Powerpoint walkthrough of installing the app.
+2. User story of installing the app.
+3. Powerpoint walkthrough of fist time launch
+4. User story and UI specifications of first time launch
+5. Powerpoint walkthrough of non-first time launch - the home UX
+6. User story and UI specifications of non-first time launch
+7. Powerpoint walkthrough of creating a playlist
+8. User story and UI specifications of creating a playlist
+9. Powerpoint walkthrough of voting on playlist
+10. User story and UI specifications of voting on playlist
+11. Powerpoint walkthrough of posting photo's to playlist
+12. User story and UI specifications of posting photo's to playlist
+13. Powerpoint walkthrough of viewing and editing profile
+14. User story and UI specifications of viewing and editing profile
+15. Powerpoint walkthrough of viewing connections
+16. User story and UI specifications of viewing connections
+17. Powerpoint walkthrough of viewing others profiles
+18. User story and UI specifications of viewing others profiles
+
+Development tasks:
+
+19. Design Pass The Aux data needs & resulting database schema
+20. Design API
