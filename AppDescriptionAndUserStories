@@ -118,39 +118,46 @@ User Stories:
             	  Fred selects whether or not he would like to disallow users to suggest explicit songs (default is not blocking explicit 									song suggestions)
 							Allow admin vetoes
             	  Fred selects whether or not he would like to be able to veto any suggested song (default is not allowing for admin vetoes)
-					If Fred taps on one of the live playlists...
-					
-      See Connections...
-			
+					If Fred taps on one of the live playlists, the screen is the same as if he tapped into a public playlist that he did not create 					except for the following additional features:
+						View users who are tapped-in
+							Fred can see all the users that are currently tapped into his playlist, with his connections showing up first
+						Veto button
+							If Fred chose to allow for admin vetoes, then between the downvote and upvote buttons there is a button that allows Fred to 							veto the suggested song
+      See Connections
+				However Fred chose to sign in, his friends(Facebook)/followers(Twitter)/contacts(Email) who already have "Pass the Aux" will be 					added to his "connections" list. Fred will have the option to invite his friends/followers/contacts to the app via messaging, 						email, etc. The "See Connections" tab will show a list of Fred's connections (list will show a user's avatar on the left of their 				username). There is a search bar at the top of the screen and a '+' in the top right corner. The search bar limits the search 						results to connections matching his search. The '+' allows Fred to add users that are he has not yet connected with. When Fred 						taps on a user he is taken to their "profile page"
+					Profile Page
+						This shows the user's username, avatar, favorite songs (based on upvotes), least favorite songs (based on downvotes), their 							photos, and photos they are tagged in. The user has the option in their "See Profile" tab to choose which songs and photos are 						 shown on their profile page
       See History
         There are two tabs Fred can choose, "Visited retired playlists" or "My retired playlists" ("Visited retired playlists" is 								default) at the top of the screen
 					The screen shows a list of playlists Fred has created or visited in the past with a search bar at the top of the screen
 						Fred can input a string into the "Search" bar and the list of playlists will be limited to playlists with titles, users who 							tapped in, and playlists containing songs matching his search
 					When Fred taps on a playlist a drop down menu lists:
-						Playlist...
-						
-						Photos...
-						
-						Who tapped in...
-						
+						Playlist
+							This displays all of the songs that were played when the playlist was live along with how many upvotes and downvotes each								  song recieved. If Fred taps on a song he has the options to view the song's photo album (photos/videos taken while the song 							was played) as well as add/save the song
+						Photos
+							This displays all of the photos that were taken in this playlist. Fred is able to tag people in photos and comment on photos
+						Who tapped in
+							This displays all of the users who tapped into the playlist. Fred's connections show up first
       See profile
         There is Fred's avatar (user picture) and a drop down menu that lists:
-          Username...
-					
-          Set password...
-					
-          Spotify account...
-					
-          Soundcloud account...
-					
-          My photos...
-					
-          Photos of me...
-					
-          Photo settings...
-					
-          Notification settings...
-					
+          Username
+						Fred has the option to update his username, but it must remain unique
+          Set password
+						Fred can update his account's password
+          Spotify account
+						Fred can connect/disconnect his Spotify account
+          Soundcloud account
+						Fred can connect/disconnect his Soundcloud account
+          My photos
+						This displays an album of photos that Fred has taken. The most recent photos show up first. All of these photos are exportable 						 to Camera Roll, Facebook, Twitter, Instagram, Email, and iMessage
+          Photos of me
+						This displays an album of photos that Fred is tagged in. The most recent photos show up first. Fred has the option to remove						  any tag he does not want to show up on his profile page. All of these photos are exportable to camera roll, Facebook, Twitter, 						 Instagram, Email, and iMessage
+          Photo-tagging settings
+						Fred has the option to choose whether or not other users are allowed to tag him in photos
+          Notification settings
+						Fred has the option to be notified when a new playlist is available in his area
+						Fred has the option to be notified when a facebook friend, twitter follower, phone contact, and/or email contact join "Pass							  the Aux"
+						Fred has the option to be notified when a song he suggested is played			
          If Fred taps his avatar, a pop-up asks if he would like to update, view, or remove his avatar. If Fred wants to update his 							 avatar, he is asked whether he would like to take a photo, choose a photo from the app, or choose from Camera Roll.
          	Take a photo
             This takes Fred to the same camera screen he would find in the "See Playlists" tab
@@ -163,10 +170,10 @@ User Stories:
 						
 
 ADDITIONAL RANDOM IDEAS
-People who are online have their username show up as green
-On a user's profile page it has tabs "favorite songs" and "least favorite songs" based on their upvote and downvote history
+People who are on the app have their username show up as green
 There should be a photo album on the user's profile page
 A user should be able to see the song that is currently being played
 There should be a way to save/add songs that the user enjoys
+You should be able to upvote and downvote photos
           
 
