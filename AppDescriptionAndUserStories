@@ -28,10 +28,26 @@ User Stories:
         Else, selecting "Sign in with Twitter" redirects to Twitter on the mobile device's default web browser requesting this app accecss 				 to ________________
       Sign in with Email
         Selecting email creates a pop-up requesting Fred's email account and password
-          There is a request for Fred to input a unique username (there is a notification on the right hand of the screen if the username 					is already in use)
-          There is a request for Fred to input a password
- 
+    There is a request for Fred to input a unique username (there is a notification on the right hand of the screen if the username 					is already in use)
+    There is a request for Fred to input a password
+		A pop-up window requires Fred allow the app to use his current location
+		A pop-up window gives Fred an overview of the app, with a step-by-step spotlight-style walkthrough of the main actions Fred may 					undertake while using the app, there is a "skip" option if Fred does not want to go through the walkthrough
+					
   Fred starts "Pass the Aux" for the non-first time.
+	Fred is at a house party. He heres that the music is being played through "Pass the Aux," so he opens his app.
+	The home screen is a list of all public playlists that Fred is able to join. This means that he is within the radius set up by each of these playlist's administrators. Fred taps on the playlist his friend created. He finds himself on a screen with a song suggestion. Fred wants the song to come on the speakers, so he taps the upvote button. The results of everyone's votes on that song are displayed for a second before a new song suggestion comes on the screen. Fred sees one of his buddies dancing so taps on the camera icon in the top right corner of the screen and takes a video of his friend's dance moves. He posts the photo to the playlist's album and tags his friend. The location, song currently being played, and time of the photo are all automatically tagged to the video. Fred leaves the app.
+	
+	After the party, 
+	
+	
+	
+
+
+
+
+
+LAYOUT - TREE (PSEUDO-PSEUDO CODE)
+	Fred taps on the app's tile from his homescreen.
     Fred's home screen shows up listing the following actions/buttons on the bottom of the screen (the home screen opens to "See
     Playlists" tab:
       See Live Playlists
